@@ -216,10 +216,9 @@ Your contributions are always welcome! Please read the [contribution guidelines]
 This work is licensed under a [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0) license.
 
 ---
-
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/Awesome_pdf_prarser&type=Date)](https://star-history.com/vanamayaswanth/Awesome_pdf_prarser&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=vanamayaswanth/Awesome_pdf_prarser&type=Date)](https://star-history.com/#vanamayaswanth/Awesome_pdf_prarser&Date)
 
 ---
 
