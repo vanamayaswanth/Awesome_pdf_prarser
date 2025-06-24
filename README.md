@@ -218,7 +218,7 @@ This work is licensed under a [Creative Commons Zero v1.0 Universal](https://cre
 ---
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vanamayaswanth/Awesome_pdf_prarser&type=Date)](https://star-history.com/#vanamayaswanth/Awesome_pdf_prarser&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Apexiq.ai/Awesome_pdf_prarser&type=Date)](https://star-history.com/#Apexiq.ai/Awesome_pdf_prarser&Date)
 
 ---
 
