@@ -1,9 +1,10 @@
 # Awesome PDF Parser & Document Intelligence Tools ✨
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Curated List](https://img.shields.io/badge/Curated-List-blue.svg)](https://github.com/YOUR_USERNAME/Awesome_pdf_prarser)
+[![License: CC0](https://img.shields.io/badge/License-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/Awesome_pdf_prarser?style=social)](https://github.com/YOUR_USERNAME/Awesome_pdf_prarser)
+[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/Awesome_pdf_prarser)](https://github.com/YOUR_USERNAME/Awesome_pdf_prarser/commits/main)
 
 > 🚀 A comprehensive, curated list of open-source libraries, tools, and projects for document processing, intelligence, and data extraction. Synthesized from community recommendations, established projects, and emerging research.
 
