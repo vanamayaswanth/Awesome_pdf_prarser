@@ -1,23 +1,47 @@
-# Open-Source Tools for Document Intelligence & Extraction
+# Awesome PDF Parser & Document Intelligence Tools ✨
 
-This document provides a curated and categorized list of open-source libraries, tools, and projects for document processing, intelligence, and data extraction. The selection is synthesized from an analysis of community recommendations, established projects, and emerging research.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/Awesome_pdf_prarser?style=social)](https://github.com/YOUR_USERNAME/Awesome_pdf_prarser)
 
-### **Curated Lists & Comprehensive Resources**
+> 🚀 A comprehensive, curated list of open-source libraries, tools, and projects for document processing, intelligence, and data extraction. Synthesized from community recommendations, established projects, and emerging research.
 
-These repositories are excellent starting points, offering aggregated lists of tools, datasets, and research papers in the document AI space.
+## 📚 Table of Contents
 
-| Tool / Resource | Description | Link |
+- [📖 Curated Lists & Resources](#-curated-lists--resources)
+- [🔧 General Document Processing](#-general-document-processing--pipelines)
+- [🎯 Document Intelligence Platforms](#-document-intelligence-platforms)
+- [📁 Document Management Systems](#-document-management-systems-dms)
+- [🛠️ SDKs & API Toolkits](#️-sdks--api-toolkits)
+- [📄 PDF Text & Data Extraction](#-pdf-text--data-extraction)
+- [🧠 Layout-Aware Document Parsing](#-layout-aware-document-parsing)
+- [👁️ OCR (Optical Character Recognition)](#️-ocr-optical-character-recognition)
+- [📊 Table Extraction](#-table-extraction-from-documents)
+- [🔄 Document Format Conversion](#-document-format-conversion)
+- [🤖 RAG & LLM Applications](#-rag--llm-applications)
+- [🎯 Specialized Document Tasks](#-specialized-document-tasks--models)
+- [📋 Annotation & Benchmarks](#-annotation-datasets--benchmarks)
+- [🔧 Utilities & Helper Tools](#-utilities--helper-tools)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+
+## 📖 Curated Lists & Resources
+
+> 🌟 Excellent starting points with aggregated lists of tools, datasets, and research papers in the document AI space.
+
+| 🛠️ Tool / Resource | 📝 Description | 🔗 Link |
 | :--- | :--- | :--- |
-| **awesome-document-understanding** | A comprehensive, actively maintained list of papers, toolkits, datasets, and benchmarks related to document AI and extraction. A highly valuable "hidden gem" for anyone in the field. | [GitHub](https://github.com/tstanislawek/awesome-document-understanding) |
-| **GitHub Topic: document-ai** | A GitHub-curated topic page featuring dozens of public repositories tagged with `document-ai`, showcasing a vibrant and active developer ecosystem with cutting-edge projects. | [GitHub](https://github.com/topics/document-ai) |
-| **Document-AI-Recommendations** | A repository containing a list of papers, datasets, and other resources for Document AI, maintained by SCUT-DLVCLab. | [GitHub](https://github.com/SCUT-DLVCLab/Document-AI-Recommendations) |
-| **Vision\_Audio\_and\_Multimodal\_Projects** | A broad collection of projects and resources, including many relevant to document intelligence and multimodal understanding. | [GitHub](https://github.com/DunnBC22/Vision_Audio_and_Multimodal_Projects) |
-| **Unstructured-IO/community** | The community repository for the `unstructured` project, containing discussions, resources, and usage examples. | [GitHub](https://github.com/Unstructured-IO/community) |
-| **parsing-prickly-pdfs** | Resources and code from a NICAR 2016 workshop on PDF parsing, useful for journalistic data extraction workflows. | [GitHub](https://github.com/ireapps/parsing-prickly-pdfs) |
+| 🌟 **awesome-document-understanding** | A comprehensive, actively maintained list of papers, toolkits, datasets, and benchmarks related to document AI and extraction. A highly valuable "hidden gem" for anyone in the field. | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tstanislawek/awesome-document-understanding) |
+| 🏷️ **GitHub Topic: document-ai** | A GitHub-curated topic page featuring dozens of public repositories tagged with `document-ai`, showcasing a vibrant and active developer ecosystem with cutting-edge projects. | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/topics/document-ai) |
+| 📚 **Document-AI-Recommendations** | A repository containing a list of papers, datasets, and other resources for Document AI, maintained by SCUT-DLVCLab. | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SCUT-DLVCLab/Document-AI-Recommendations) |
+| 🎬 **Vision\_Audio\_and\_Multimodal\_Projects** | A broad collection of projects and resources, including many relevant to document intelligence and multimodal understanding. | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DunnBC22/Vision_Audio_and_Multimodal_Projects) |
+| 👥 **Unstructured-IO/community** | The community repository for the `unstructured` project, containing discussions, resources, and usage examples. | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Unstructured-IO/community) |
+| 📰 **parsing-prickly-pdfs** | Resources and code from a NICAR 2016 workshop on PDF parsing, useful for journalistic data extraction workflows. | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ireapps/parsing-prickly-pdfs) |
 
-### **General Document Processing & Pipelines**
+## 🔧 General Document Processing & Pipelines
 
-These are frameworks and comprehensive toolkits designed to orchestrate complex document processing workflows by integrating multiple specialized models and tools.
+> ⚡ Frameworks and comprehensive toolkits designed to orchestrate complex document processing workflows by integrating multiple specialized models and tools.
 
 | Tool | Description | Link |
 | :--- | :--- | :--- |
@@ -53,9 +77,9 @@ These are libraries designed to simplify interaction with commercial or third-pa
 | :--- | :--- | :--- |
 | **python-documentai-toolbox** | A Python SDK from Google to simplify interactions with the Google Cloud Document AI API suite, wrapping common operations for easier use. | [GitHub](https://github.com/googleapis/python-documentai-toolbox) |
 
-### **PDF Text & Data Extraction**
+## 📄 PDF Text & Data Extraction
 
-These libraries focus on the fundamental task of extracting text, images, and metadata from PDF files. They serve as the foundation for many document processing applications.
+> 🔍 Libraries focused on the fundamental task of extracting text, images, and metadata from PDF files. The foundation for many document processing applications.
 
 | Tool | Description | Link |
 | :--- | :--- | :--- |
@@ -85,9 +109,9 @@ This category includes advanced tools that leverage deep learning to understand 
 | **Docling** | A tool designed to accurately interpret PDF content by considering its layout, reading order, tables, code blocks, and images. Now a commercial product. | [Homepage](https://docling.ai/) |
 | **Doc2Graph** | A framework that uses Graph Neural Networks (GNNs) for task-agnostic document understanding, leveraging the structural and relational patterns within a document. | [GitHub](https://github.com/Doc2Graph/Doc2Graph) |
 
-### **OCR (Optical Character Recognition)**
+## 👁️ OCR (Optical Character Recognition)
 
-OCR engines are essential for converting scanned documents or images of text into machine-readable text. Modern OCR tools often incorporate deep learning for higher accuracy.
+> 🖼️ Essential engines for converting scanned documents or images of text into machine-readable text. Modern OCR tools often incorporate deep learning for higher accuracy.
 
 | Tool | Description | Link |
 | :--- | :--- | :--- |
@@ -97,9 +121,9 @@ OCR engines are essential for converting scanned documents or images of text int
 | **OCRmyPDF** | A crucial utility that adds a searchable text layer to scanned PDF files by running an OCR engine (typically Tesseract) on the document images and embedding the recognized text. | [GitHub](https://github.com/ocrmypdf/OCRmyPDF) |
 | **EasyOCR** | A popular Python library that provides a ready-to-use OCR model with support for a wide range of languages. | [GitHub](https://github.com/JaidedAI/EasyOCR) |
 
-### **Table Extraction from Documents**
+## 📊 Table Extraction from Documents
 
-These tools are specifically optimized for the challenging task of identifying and extracting structured tabular data from both text-based and image-based documents.
+> 📋 Tools specifically optimized for the challenging task of identifying and extracting structured tabular data from both text-based and image-based documents.
 
 | Tool | Description | Link |
 | :--- | :--- | :--- |
@@ -158,3 +182,50 @@ Miscellaneous helper tools for common document processing tasks.
 | Tool | Description | Link |
 | :--- | :--- | :--- |
 | **Born digital pdf scanner** | A command-line utility to determine if a PDF file is 'born-digital' (text-based) or scanned (image-based). | [GitHub](https://github.com/colarusso/born-digital-pdf-scanner) |
+
+---
+
+## 🤝 Contributing
+
+Your contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+### How to Contribute
+
+1. 🍴 Fork this repository
+2. 🌟 Add your awesome tool/library to the appropriate section
+3. 📝 Ensure your addition follows the format: `| 🎯 **Tool Name** | Description | [![GitHub](badge-url)](link-url) |`
+4. ✅ Make sure the tool is:
+   - **Open source** (or has significant free features)
+   - **Actively maintained** (recent commits/releases)
+   - **Well documented**
+   - **Relevant** to document processing/intelligence
+5. 🚀 Create a Pull Request
+
+### Quality Standards
+
+- 📚 **Documentation**: Tool should have clear documentation
+- 🔄 **Activity**: Recent activity (commits, releases, or issues)
+- ⭐ **Community**: Some level of community adoption
+- 🎯 **Relevance**: Direct relevance to document processing/AI
+
+## 📜 License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+
+This work is licensed under a [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0) license.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/Awesome_pdf_prarser&type=Date)](https://star-history.com/#YOUR_USERNAME/Awesome_pdf_prarser&Date)
+
+---
+
+<div align="center">
+
+**Made with ❤️ by the document processing community**
+
+[⬆️ Back to Top](#awesome-pdf-parser--document-intelligence-tools-)
+
+</div>
