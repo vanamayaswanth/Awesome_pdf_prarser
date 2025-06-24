@@ -219,7 +219,7 @@ This work is licensed under a [Creative Commons Zero v1.0 Universal](https://cre
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/Awesome_pdf_prarser&type=Date)](https://star-history.com/#YOUR_USERNAME/Awesome_pdf_prarser&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/Awesome_pdf_prarser&type=Date)](https://star-history.com/vanamayaswanth/Awesome_pdf_prarser&Date)
 
 ---
 
